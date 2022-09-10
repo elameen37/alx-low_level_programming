@@ -5,7 +5,7 @@
  * main - Determine whether variable n is positive, negative or zero
  *
  * Return 0 (Success)
- * */
+ */
 int main(void)
 {
 	int n;
