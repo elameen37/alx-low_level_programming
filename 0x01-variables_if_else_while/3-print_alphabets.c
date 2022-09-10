@@ -16,7 +16,6 @@ int main(void)
 	
 	for (lowercase = 'A'; lowercase <= 'Z'; lowercase++)
 	putchar(lowercase);
-	putchar('\n');
-    
+	    
 	return (0);
 }
