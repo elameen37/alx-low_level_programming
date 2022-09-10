@@ -2,6 +2,7 @@
 
 /**
  * main - Prints the alphabet in lowercase, followed by a new line.
+ * print all letters except q and e
  *
  * Return: Always 0 (Success)
  */
