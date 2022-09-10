@@ -18,15 +18,15 @@ int main(void)
 	L = n % 10;
 
 	printf("%s %d is %d and is ", str, n, L);
-	if ("L > 5\n")
+	if (L > 5)
 	{
 		printf("greater than 5\n");
 	}
-	else if ("L == 0")
+	else if (L == 0)
 	{
 		printf("0\n");
 	}
-	else if ("L < 6")
+	else if (L < 6)
 	{
 		printf("less than 6 and not 0\n");
 	}
