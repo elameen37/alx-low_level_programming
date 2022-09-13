@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check for alphabetic character
+ * main - check the code
  *
  * Return: 0 Always (Success)
  */
