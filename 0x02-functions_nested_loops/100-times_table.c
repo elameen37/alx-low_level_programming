@@ -7,9 +7,8 @@
  */
 void print_times_table(int n)
 {
-<<<<<<< HEAD
 	return (0);
-=======
+
 	int i, j;
 
 	if (n > 0 && n < 15)
@@ -55,5 +54,4 @@ void putformat(int n)
 		_putchar(n / 10 % 10 + '0');
 		_putchar(n % 10 + '0');
 	}
->>>>>>> c15ee1c2467949a0a6358b65812c48c0f61173a4
 }
