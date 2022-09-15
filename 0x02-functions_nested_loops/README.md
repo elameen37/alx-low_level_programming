@@ -1,2 +1,2 @@
-# **0x02 - C. Functions, nested_loops**
+# **0x02 - C. Functions - nested_loops**
 
