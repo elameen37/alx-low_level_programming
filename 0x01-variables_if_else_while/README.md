@@ -1,1 +1,1 @@
-**<h1>ALX SE - C Programming Variables - if, else and while</h1>**
+# **0x01 - C. Variables - if_else_while**
