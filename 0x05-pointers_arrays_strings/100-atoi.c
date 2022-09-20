@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _atoi - Convert a string to integer.
@@ -9,7 +9,7 @@
  * If there are no numbers in the string, return 0.
  * No need to check for overflow.
  * Not allowed to hard-code special values.
- * Return: 0 Always (if no number found in the string)
+ * Return: Always 0 (if no number found in the string)
  */
 
 int _atoi(char *s)
