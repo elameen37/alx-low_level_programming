@@ -2,7 +2,7 @@
 
 /**
  * rot13 - rotate characters 13 places in the alphabet
- * @s: string
+ * @str: string
  * Return: string `s` rotated
  */
 
