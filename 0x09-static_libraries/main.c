@@ -1,7 +1,7 @@
 #include "main.h"
 
-int _putchar(char c)
+int main(void)
 {
-    _putchar("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+    _puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
     return (0);
 }
