@@ -1,9 +1,11 @@
 # *0x09. C - Static libraries*
 
 In this project, I learned what static libraries are and also practiced them
-using them with `ar`, `ranlib`, and `nm`.
+using `ar`, `ranlib`, and `nm`.
 
 ## Tests :heavy_check_mark:
+
+## Tasks :page_with_curl:
 
 ## Creating a static library libmy.a
 ```
@@ -42,6 +44,10 @@ ar -rc libmy.a *.o
 
 ar -t libmy.a
 
+ranlib libmy.a
+
+nm libmy.a
+
 0-isupper.o
 0-memset.o
 0-strcat.o
@@ -61,11 +67,7 @@ ar -t libmy.a
 5-strstr.o6-abs.o
 6-abs.o
 9-strcpy.o
-\_putchar.o
-
-ranlib libmy.a
-
-nm libmy.a
+_putchar.o
 
 ## Tasks :page_with_curl:
 
@@ -75,5 +77,6 @@ nm libmy.a
 
 creat a main.c file
 
-gcc main.c -L. -lholberton -o quote
+gcc -std=gnu89 main.c -L. -lmy -o quote
 ```
+./quote
