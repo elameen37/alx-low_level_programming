@@ -37,6 +37,12 @@ using `ar`, `ranlib`, and `nm`.
   * [main.h](./main.h): Header file containing the prototypes of all functions
   included in `libmy.a`.
 
+ * `gcc -c *.c`
+
+ * `ar -rc libmy.a *.o`
+
+ * `ar -t libmy.a`
+
 0-isupper.o
 
 0-memset.o
@@ -73,19 +79,14 @@ using `ar`, `ranlib`, and `nm`.
 
 6-abs.o
 
-9-strcpy.`o
+9-strcpy.o
 
 _putchar.o
 
- `gcc -c *.c`
+ 
+ * `ranlib libmy.a`
 
- `ar -rc libmy.a *.o`
-
- `ar -t libmy.a`
-
- `ranlib libmy.a`
-
- `nm libmy.a`
+ * `nm libmy.a`
 
 
 ## Tasks :page_with_curl:
