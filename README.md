@@ -1,4 +1,4 @@
-**<h1>ALX SE - cohort 9 - C Programming - 08/09/2022<h1>**
+**<h2>ALX SE - cohort 9 - C Programming - 08/09/2022<h2>**
 
 * [0x00. C - Hello, World](./0x00-hello_world)
 * [0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)
