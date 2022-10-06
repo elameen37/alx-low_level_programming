@@ -48,7 +48,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	filler = mem;
 
 	for (i = 0; i < old_size && i < new_size; i++)
-		filler[index] = *ptr_copy++;
+		filler[i] = *ptr_copy++;
 
 	free(ptr);
 	return (mem);
