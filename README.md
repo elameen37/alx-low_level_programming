@@ -13,3 +13,4 @@
 * [0x0B. C - malloc, free](./0x0B-malloc_free)
 * [0x0C. C - More malloc, free](./0x0C-more_malloc_free)
 * [0x0D. C - Preprocessor](./0x0D-preprocessor)
+* [0x0E. C - Structures, typedef](./0x0E-structures_typedef)
