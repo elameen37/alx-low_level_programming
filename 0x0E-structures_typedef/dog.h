@@ -1,18 +1,24 @@
-#include <stdio.h>
-#include "dog.h"
-
+#ifndef DOG_H
+#define DOG_H
 /**
- * main - check the code
+ * struct dog - Django created you a struct
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  *
- * Return: Always 0.
+ * Description: Data structure for holbertn and Django
  */
-int main(void)
+typedef struct dog
 {
-    struct dog my_dog;
+	char *name;
+	float age;
+	char *owner;
+} dog;
 
-    my_dog.name = "Poppy";
-    my_dog.age = 3.5;
-    my_dog.owner = "Bob";
-    printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
-    return (0);
-}
+typedef dog dog_t;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+#endif
