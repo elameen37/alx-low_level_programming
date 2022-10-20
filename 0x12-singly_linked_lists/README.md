@@ -16,7 +16,7 @@ At the end of this project, I was able to solve this questions:
 3. Function that adds a new node at the end of a list_t list.
 4. Function that frees a list_t list.
 5. Function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
-6. 64-bit program in assembly that prints Hello, Holberton.
+6. 64-bit program in assembly that prints Hello, Alx.
 
 ## Results :chart_with_upwards_trend:
 
