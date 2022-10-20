@@ -19,7 +19,7 @@ size_t print_list(const list_t *h)
 		{
 			printf("[%d] %s\n", 0, "(nil)");
 			tmp = tmp->next;
-			i++;
+			index++;
 		}
 		else
 		{
