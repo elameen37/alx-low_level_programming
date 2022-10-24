@@ -27,7 +27,7 @@ size_t looped_listint_count(listint_t *head)
 		if (tiger == lion)
 		{
 			tiger = head;
-			while (tiger != )
+			while (tiger != lion)
 			{
 				nodes++;
 				tiger = tiger->next;
