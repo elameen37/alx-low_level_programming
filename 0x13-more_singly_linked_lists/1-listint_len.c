@@ -1,18 +1,19 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
- * listint_len - Return the number of elements
- * @h: data type pointer of struct
- * Return: elements of the str count
- *  
- * */
+ * listint_len - A function that returns the number of elements in the list
+ * @h: A pointer to listint_t structure
+ * Return: number of elements.
+ */
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *c;
-	size_t count;
+	size_t nodes = 0;
 
-	for (c = h, count = 0; c != NULL; count++, c = c->next)
-		;
-
-	return (count);
+	while (h)
+	{
+		h = h->next;
+		nodes++;
+	}
+	return (nodes);
 }
