@@ -1,15 +1,17 @@
 #include "lists.h"
 
 /**
- * free_listint - Free listint_t.
- * @head: data type pointer the head/next node
- * Return: 0 elements all free
+ * free_listint - free a `listint_t` list
+ * @head: head of linked list
  */
 void free_listint(listint_t *head)
 {
+	listint_t *hold;
+
 	while (head != NULL)
 	{
-		free(head);
+		hold = head;
 		head = head->next;
+		free(hold);
 	}
 }
