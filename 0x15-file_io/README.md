@@ -25,25 +25,18 @@ At the end of this project, I was able to solve this questions:
 
 | Filename |
 | ------ |
-| [0-read_textfile.c](https://github.com/edward0rtiz/holbertonschool-low_level_programming/blob/master/0x15-file_io/0-read_textfile.c)|
-| [1-create_file.c](https://github.com/edward0rtiz/holbertonschool-low_level_programming/blob/master/0x15-file_io/1-create_file.c)|
-| [2-append_text_to_file.c](https://github.com/edward0rtiz/holbertonschool-low_level_programming/blob/master/0x15-file_io/2-append_text_to_file.c)|
-| [3-cp.c](hhttps://github.com/edward0rtiz/holbertonschool-low_level_programming/blob/master/0x15-file_io/3-cp.c)|
-| [100-elf_header.c](https://github.com/edward0rtiz/holbertonschool-low_level_programming/blob/master/0x15-file_io/100-elf_header.c)|
+| [0-read_textfile.c](https://github.com/elameen37/alx-low_level_programming/tree/master/0x15-file_io/0-read_textfile.c)|
+| [1-create_file.c](https://github.com/elameen37/alx-low_level_programming/tree/master/0x15-file_io/1-create_file.c)|
+| [2-append_text_to_file.c](https://github.com/elameen37/alx-low_level_programming/tree/master/0x15-file_io/2-append_text_to_file.c)|
+| [3-cp.c](hhttps://github.com/elameen37/alx-low_level_programming/tree/master/0x15-file_io/3-cp.c)|
+| [100-elf_header.c](https://github.com/elameen37/alx-low_level_programming/tree/master/0x15-file_io/100-elf_header.c)|
 
-
-## Additional info :construction:
-### Resources
-
-- GLIBC 2.24
-- gcc 4.8.4
-- betty linter 0.32
 
 
 
 ### Try It On Your Machine computer:	
 ```bash
-git clone https://github.com/edward0rtiz/holbertonschool-low_level_programming.git
+git clone https://github.com/elameen37/alx-low_level_programming/tree/master/0x15-file_io.git
 cd 0x15-file_io
 gcc -Wall -pedantic -Werror -Wextra /PATH/main_files/MAIN_FILE.c FILENAME.c -o NEW_FILENAME
 ```
